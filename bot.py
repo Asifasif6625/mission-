@@ -17,7 +17,6 @@ from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
 from aiohttp import web
 
-
 PORT = "8080"
 
 class Bot(Client):
