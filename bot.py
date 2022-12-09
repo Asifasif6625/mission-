@@ -17,7 +17,7 @@ from aiohttp import web
 
 class Bot(Client):
 
-    def __name__(self):
+    def __init__(self):
         super().__name__(
             session_name=SESSION,
             api_id=API_ID,
